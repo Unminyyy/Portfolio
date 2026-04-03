@@ -1,0 +1,52 @@
+body {
+    margin: 0;
+    font-family: Arial;
+    background: linear-gradient(to right, #667eea, #764ba2);
+    color: white;
+}
+
+/* Header */
+header {
+    text-align: center;
+    padding: 20px;
+    background-color: rgba(0,0,0,0.3);
+}
+
+nav a {
+    margin: 10px;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: yellow;
+}
+
+/* Container */
+.container {
+    text-align: center;
+    padding: 20px;
+}
+
+/* Cards */
+.card {
+    background: white;
+    color: black;
+    margin: 20px auto;
+    padding: 20px;
+    width: 250px;
+    border-radius: 15px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+    transition: 0.3s;
+}
+
+/* Hover effect */
+.card:hover {
+    transform: scale(1.05);
+}
+
+/* Headings */
+h2 {
+    margin-bottom: 20px;
+}

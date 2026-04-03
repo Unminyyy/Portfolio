@@ -1,0 +1,43 @@
+body {
+    margin: 0;
+    font-family: Arial;
+    background: linear-gradient(to right, #ff9966, #ff5e62);
+    color: white;
+}
+
+header {
+    text-align: center;
+    padding: 20px;
+    background: rgba(0,0,0,0.3);
+}
+
+nav a {
+    margin: 10px;
+    color: white;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: yellow;
+}
+
+.container {
+    text-align: center;
+    padding: 20px;
+}
+
+.card {
+    display: inline-block;
+    background: white;
+    color: black;
+    padding: 20px;
+    margin: 15px;
+    border-radius: 15px;
+    width: 150px;
+    font-size: 18px;
+    transition: 0.3s;
+}
+
+.card:hover {
+    transform: scale(1.1);
+}

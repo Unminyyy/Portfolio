@@ -1,0 +1,46 @@
+body {
+    margin: 0;
+    font-family: Arial;
+    background: linear-gradient(to right, #43cea2, #185a9d);
+    color: white;
+}
+
+header {
+    text-align: center;
+    padding: 20px;
+    background: rgba(0,0,0,0.3);
+}
+
+nav a {
+    margin: 10px;
+    color: white;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: yellow;
+}
+
+.form-box {
+    background: white;
+    color: black;
+    width: 300px;
+    margin: 50px auto;
+    padding: 20px;
+    border-radius: 15px;
+    text-align: center;
+}
+
+input, textarea {
+    width: 90%;
+    margin: 10px;
+    padding: 10px;
+}
+
+button {
+    padding: 10px 20px;
+    background: darkblue;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
